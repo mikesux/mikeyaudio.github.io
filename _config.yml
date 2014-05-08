@@ -3,8 +3,8 @@ name: MikeyAudio
 title: Bassman
 email: mikeyaudio@gmail.com
 description: "This is a test website for UIT curriculum"
-baseurl: ""
-url: "http://yourdomain.com"
+baseurl: "/mikeyaudio.github.io"
+url: "http://mikeyjojr.com"
 
 # Build settings
 markdown: redcarpet
