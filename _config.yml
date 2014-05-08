@@ -1,0 +1,11 @@
+# Site settings
+name: MikeyAudio
+title: Bassman
+email: mikeyaudio@gmail.com
+description: "This is a test website for UIT curriculum"
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: redcarpet
+permalinks: pretty
