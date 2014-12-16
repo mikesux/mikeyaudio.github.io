@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>UIT Startup Immersion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="login">
+        <div id="login_bg">
+          <a href="/" id="logo_login"></a>
+          <form role="form" onsubmit="return login();">
+            <div class="form-group">
+              <label class="sr-only" for="login_email">Email address</label>
+              <input type="email" class="form-control" id="login_email" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="login_pass">Password</label>
+              <input type="password" class="form-control" id="login_pass" placeholder="Password">
+            </div>
+            <div id="login_error" class="error"></div>
+            <button type="submit" class="btn btn-default">LOGIN</button>
+            <div id="login_forgot">
+              <!--<a href="#">Forgot password?</a>-->
+            </div>
+          </form>
+        </div>
+        <div id="login_apply">
+          Don't have an account? <a href="/">Apply</a>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    <div class="footer">
+      <div class="container" id="footer">
+        <div id="copyright">© 2014 UIT. All rights reserved.</div>
+        <div id="social_icons">
+          <a href="https://twitter.com/UITstartup" class="img-twitter"></a>
+          <!--<a href="#" class="img-facebook"></a>-->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://app.userapp.io/js/userapp.client.js"></script>
+    <script src="../js/cookies.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/login.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-49138757-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
