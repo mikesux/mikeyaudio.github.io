@@ -7,9 +7,7 @@ body {
   height: 100%;    
 }
 
-
 /*Polymer Scaffold*/
-
 
 core-item {
   color: #f6fef3;
@@ -277,7 +275,8 @@ paper-button[raised].bubble-float-left {
 
 
 
-/*Hover Responsiveness*/
+/*-------Hover Responsive-------*/
+
 /* Bubble Float Left */
 
 .bubble-float-left {
