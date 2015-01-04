@@ -78,19 +78,20 @@
         
         <!--Logo and Center Content-->
       
-      <div vertical layout center flex>
+      <div vertical layout center>
         <img class="logo" src="images/logo.svg">
           <div class="when">Apply for September 2015</div>
           <div class="what">focused on developing startup founders</div>
       </div>
         
         <!--Submit Form-->
+    
     <template is="auto-binding">
       <core-media-query query="max-width: 640px" queryMatches="{{phoneScreen}}"></core-media-query>
         <div class="submit-form" layout center vertical?="{{phoneScreen}}" center horizontal?="{{!phoneScreen}}">
           <div class="input-submit" center auto-vertical>
             <paper-input-decorator class="custom" label="email address" floatingLabel>
-              <input type="email" id="email" is="core-input">
+              <input type="email" id="email">
             </paper-input-decorator>
           </div>
           <div class="input-submit" center auto-vertical>
@@ -99,17 +100,21 @@
             </paper-input-decorator>
           </div>
           <div auto-vertical>
-            <paper-button raised class="button bubble-float-left">Apply</paper-button>
+            <paper-button raised type="submit" class="button bubble-float-left">Apply</paper-button>
+
           </div>
         </div>
     </template>
 
         <!--Three Topics on Grey-->
+
 <div class="container-fluid" id="topics_bg">
       <div class="topic">
+        
         <div><core-icon icon="developer-mode-tv" style="width: 130px; height: 130px; color: #f6fef3"></core-icon></div>
         <h3>Technology</h3>
         <div class="desc">Learn code, design, database, and networking while recreating the technology behind successful startups.</div>
+      
       </div>
       <div class="topic">
         <div><core-icon icon="work" style="width: 130px; height: 130px; color: #f6fef3"></core-icon></div>
@@ -163,25 +168,22 @@
 
  
   
-    
 
-    <div class="container-fluid" id="newsletter_bg">
-      <div id="newsletter">
-
-        <div id="when">Signup for the UIT Newsletter</div>
-        <div id="mc_embed_signup">
-          <form action="//uitstartup.us8.list-manage.com/subscribe/post?u=2a43a7c7a0e4f0012a022387a&amp;id=91ceeb974c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" role="form" novalidate>
-            <div class="form-group">
-              <label class="sr-only" for="mce-EMAIL">Email Address</label>
-              <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email Address" required>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;"><input type="text" name="b_2a43a7c7a0e4f0012a022387a_91ceeb974c" tabindex="-1" value=""></div>
-            </div>
-            <button type="submit" class="btn btn-default" id="mc-embedded-subscribe">SUBSCRIBE</button>
+    <div id="mc_embed_signup">
+      <form action="//uitstartup.us8.list-manage.com/subscribe/post?u=2a43a7c7a0e4f0012a022387a&amp;id=91ceeb974c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" role="form" novalidate>
+          <div class="form-group">            
+            <paper-input-decorator for"mce-EMAIL" class="custom" label="Email Address" floatingLabel>             
+              <input type="email" value=""name="EMAIL" id="mce-EMAIL" required>
+            </paper-input-decorator>
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_2a43a7c7a0e4f0012a022387a_91ceeb974c" tabindex="-1" value=""></div>
+          </div>          
+            <paper-button raised type="submit" class="button bubble-float-left" id="mc-embedded-subscribe">Subscribe</paper-button>
           </form>
         </div>
-      </div>
-    </div>
+    
+
+
 
     <div class="footer">
       <div class="container" id="footer">
@@ -192,6 +194,18 @@
         </div>
       </div>
     </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://app.userapp.io/js/userapp.client.js"></script>
+    <script src="js/cookies.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+
 
 <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
