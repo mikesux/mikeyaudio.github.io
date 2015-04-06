@@ -23,15 +23,13 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/mikeyojojr
   - title: facebook
-    url:
+    url:https://www.facebook.com/mouellettest
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://stackoverflow.com/users/3642033/mikeyjojr
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/mikeyaudio
 
 # Postal address (add as many lines as necessary)
 address:
