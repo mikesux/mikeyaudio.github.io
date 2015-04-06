@@ -30,7 +30,11 @@ social:
     url: http://stackoverflow.com/users/3642033/mikeyjojr
   - title: github
     url: https://github.com/mikeyaudio
-
+  - title: instagram
+    url: https://instagram.com/mikeyojojr/
+  - title: linkedin
+    url: https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US
+    
 # Postal address (add as many lines as necessary)
 address:
   - line: Dartmouth
