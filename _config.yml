@@ -9,9 +9,9 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: aeb5ce #80B3FF
-  secondary: d0d2b3 #FD6E8A
-  secondary-dark: 81849f #A2122F
+  primary: 5c7176 #80B3FF
+  secondary: 473c4b #FD6E8A
+  secondary-dark: 342b3a #A2122F
 
 # Footer settings
 footer:
@@ -35,7 +35,7 @@ social:
     
 # Postal address (add as many lines as necessary)
 address:
-  - line: Dartmouth
+  - line: ''
 
 # Credits content
 credits: ''
